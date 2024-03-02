@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content="width = device-width initial-scale =1.0">
+<title>TimeTable</title>
+<style>
+table{
+width:100%;
+border-collapse : collapse;
+}
+th,td{
+border : 1px solid #dddddd;
+text-align: left;
+padding:8px;
+}
+th{
+background color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+<h2> TimeTable </h2>
+<table>
+<tr>
+<th>Time and day</th>
+<th>08.45-09.40</th>
+<th>09.40-10.35</th>
+<td rowspan = "7" align = "center" height ="50">
+<h2>B<br>R<br>E<br>A<br>K</h2>
+<th>10.55-11.45</th>
+<th>11.45-12.35</th>
+<td rowspan = "7" align = "center" height ="50">
+<h2>L<br>U<br>N<br>C<br>H</h2>
+<th>01.45-02.35</th>
+<th>02.35-03.25</th>
+<th>03.25-04.15</th>
+</tr>
+<tr>
+<td>Mon</td>
+<td>OS</td>
+<td>AIML</td>
+<td>FDS</td>
+<td>OOSE</td>
+<td>OS</td>
+<td>WE</td>
+<td>EVS</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>EVS</td>
+<td>DSC LAB</td>
+<td colspan = "2"><center>DSC LAB</center></td>
+<td>OOSE</td>
+<td>AIML</td>
+<td>OOSE</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>WE</td>
+<td>FDS</td>
+<td>OS</td>
+<td>EVS</td>
+<td>AIML LAB</td>
+<td colspan = "2"><center>AIML LAB</center></td>
+</tr>
+<tr>
+<td>Thu</td>
+<td colspan = "2"><center>WE LAB</center></td>
+<td>OOSE</td>
+<td>WE</td>
+<td>FDS</td>
+<td>OS</td>
+<td>AIML</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>AIML</td>
+<td>OS LAB</td>
+<td colspan = "2"><center>OS LAB</center></td>
+<td>EVS</td>
+<td>WE</td>
+<td>FDS</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>OOSE</td>
+<td>OS</td>
+<td>AIML</td>
+<td>FDS</td>
+<td>WE</td>
+<td>EVS</td>
+<td>OS</td>
+</tr>
+</table>
+</html>
+
